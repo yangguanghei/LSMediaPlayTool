@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1E6916A22CEF55B00598EBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6916922CEF55B00598EBB /* AppDelegate.m */; };
+		C1E6916D22CEF55B00598EBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6916C22CEF55B00598EBB /* ViewController.m */; };
+		C1E6917022CEF55B00598EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E6916E22CEF55B00598EBB /* Main.storyboard */; };
+		C1E6917222CEF55D00598EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E6917122CEF55D00598EBB /* Assets.xcassets */; };
+		C1E6917522CEF55D00598EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E6917322CEF55D00598EBB /* LaunchScreen.storyboard */; };
+		C1E6917822CEF55D00598EBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6917722CEF55D00598EBB /* main.m */; };
+		C1E6918222CEF55D00598EBB /* LSMediaPlayToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6918122CEF55D00598EBB /* LSMediaPlayToolTests.m */; };
+		C1E6918D22CEF55D00598EBB /* LSMediaPlayToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6918C22CEF55D00598EBB /* LSMediaPlayToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1E6917E22CEF55D00598EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1E6915D22CEF55B00598EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1E6916422CEF55B00598EBB;
+			remoteInfo = LSMediaPlayTool;
+		};
+		C1E6918922CEF55D00598EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1E6915D22CEF55B00598EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1E6916422CEF55B00598EBB;
+			remoteInfo = LSMediaPlayTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1E6916522CEF55B00598EBB /* LSMediaPlayTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSMediaPlayTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E6916822CEF55B00598EBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1E6916922CEF55B00598EBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1E6916B22CEF55B00598EBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1E6916C22CEF55B00598EBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1E6916F22CEF55B00598EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1E6917122CEF55D00598EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1E6917422CEF55D00598EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1E6917622CEF55D00598EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E6917722CEF55D00598EBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1E6917D22CEF55D00598EBB /* LSMediaPlayToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSMediaPlayToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E6918122CEF55D00598EBB /* LSMediaPlayToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSMediaPlayToolTests.m; sourceTree = "<group>"; };
+		C1E6918322CEF55D00598EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E6918822CEF55D00598EBB /* LSMediaPlayToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSMediaPlayToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E6918C22CEF55D00598EBB /* LSMediaPlayToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSMediaPlayToolUITests.m; sourceTree = "<group>"; };
+		C1E6918E22CEF55D00598EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1E6916222CEF55B00598EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E6917A22CEF55D00598EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E6918522CEF55D00598EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1E6915C22CEF55B00598EBB = {
+			isa = PBXGroup;
+			children = (
+				C1E6916722CEF55B00598EBB /* LSMediaPlayTool */,
+				C1E6918022CEF55D00598EBB /* LSMediaPlayToolTests */,
+				C1E6918B22CEF55D00598EBB /* LSMediaPlayToolUITests */,
+				C1E6916622CEF55B00598EBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1E6916622CEF55B00598EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1E6916522CEF55B00598EBB /* LSMediaPlayTool.app */,
+				C1E6917D22CEF55D00598EBB /* LSMediaPlayToolTests.xctest */,
+				C1E6918822CEF55D00598EBB /* LSMediaPlayToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1E6916722CEF55B00598EBB /* LSMediaPlayTool */ = {
+			isa = PBXGroup;
+			children = (
+				C1E6916822CEF55B00598EBB /* AppDelegate.h */,
+				C1E6916922CEF55B00598EBB /* AppDelegate.m */,
+				C1E6916B22CEF55B00598EBB /* ViewController.h */,
+				C1E6916C22CEF55B00598EBB /* ViewController.m */,
+				C1E6916E22CEF55B00598EBB /* Main.storyboard */,
+				C1E6917122CEF55D00598EBB /* Assets.xcassets */,
+				C1E6917322CEF55D00598EBB /* LaunchScreen.storyboard */,
+				C1E6917622CEF55D00598EBB /* Info.plist */,
+				C1E6917722CEF55D00598EBB /* main.m */,
+			);
+			path = LSMediaPlayTool;
+			sourceTree = "<group>";
+		};
+		C1E6918022CEF55D00598EBB /* LSMediaPlayToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1E6918122CEF55D00598EBB /* LSMediaPlayToolTests.m */,
+				C1E6918322CEF55D00598EBB /* Info.plist */,
+			);
+			path = LSMediaPlayToolTests;
+			sourceTree = "<group>";
+		};
+		C1E6918B22CEF55D00598EBB /* LSMediaPlayToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1E6918C22CEF55D00598EBB /* LSMediaPlayToolUITests.m */,
+				C1E6918E22CEF55D00598EBB /* Info.plist */,
+			);
+			path = LSMediaPlayToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1E6916422CEF55B00598EBB /* LSMediaPlayTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E6919122CEF55D00598EBB /* Build configuration list for PBXNativeTarget "LSMediaPlayTool" */;
+			buildPhases = (
+				C1E6916122CEF55B00598EBB /* Sources */,
+				C1E6916222CEF55B00598EBB /* Frameworks */,
+				C1E6916322CEF55B00598EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSMediaPlayTool;
+			productName = LSMediaPlayTool;
+			productReference = C1E6916522CEF55B00598EBB /* LSMediaPlayTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1E6917C22CEF55D00598EBB /* LSMediaPlayToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E6919422CEF55D00598EBB /* Build configuration list for PBXNativeTarget "LSMediaPlayToolTests" */;
+			buildPhases = (
+				C1E6917922CEF55D00598EBB /* Sources */,
+				C1E6917A22CEF55D00598EBB /* Frameworks */,
+				C1E6917B22CEF55D00598EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1E6917F22CEF55D00598EBB /* PBXTargetDependency */,
+			);
+			name = LSMediaPlayToolTests;
+			productName = LSMediaPlayToolTests;
+			productReference = C1E6917D22CEF55D00598EBB /* LSMediaPlayToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1E6918722CEF55D00598EBB /* LSMediaPlayToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E6919722CEF55D00598EBB /* Build configuration list for PBXNativeTarget "LSMediaPlayToolUITests" */;
+			buildPhases = (
+				C1E6918422CEF55D00598EBB /* Sources */,
+				C1E6918522CEF55D00598EBB /* Frameworks */,
+				C1E6918622CEF55D00598EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1E6918A22CEF55D00598EBB /* PBXTargetDependency */,
+			);
+			name = LSMediaPlayToolUITests;
+			productName = LSMediaPlayToolUITests;
+			productReference = C1E6918822CEF55D00598EBB /* LSMediaPlayToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1E6915D22CEF55B00598EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "梁森";
+				TargetAttributes = {
+					C1E6916422CEF55B00598EBB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C1E6917C22CEF55D00598EBB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C1E6916422CEF55B00598EBB;
+					};
+					C1E6918722CEF55D00598EBB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C1E6916422CEF55B00598EBB;
+					};
+				};
+			};
+			buildConfigurationList = C1E6916022CEF55B00598EBB /* Build configuration list for PBXProject "LSMediaPlayTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1E6915C22CEF55B00598EBB;
+			productRefGroup = C1E6916622CEF55B00598EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1E6916422CEF55B00598EBB /* LSMediaPlayTool */,
+				C1E6917C22CEF55D00598EBB /* LSMediaPlayToolTests */,
+				C1E6918722CEF55D00598EBB /* LSMediaPlayToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1E6916322CEF55B00598EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E6917522CEF55D00598EBB /* LaunchScreen.storyboard in Resources */,
+				C1E6917222CEF55D00598EBB /* Assets.xcassets in Resources */,
+				C1E6917022CEF55B00598EBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E6917B22CEF55D00598EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E6918622CEF55D00598EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1E6916122CEF55B00598EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E6916D22CEF55B00598EBB /* ViewController.m in Sources */,
+				C1E6917822CEF55D00598EBB /* main.m in Sources */,
+				C1E6916A22CEF55B00598EBB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E6917922CEF55D00598EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E6918222CEF55D00598EBB /* LSMediaPlayToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E6918422CEF55D00598EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E6918D22CEF55D00598EBB /* LSMediaPlayToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1E6917F22CEF55D00598EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1E6916422CEF55B00598EBB /* LSMediaPlayTool */;
+			targetProxy = C1E6917E22CEF55D00598EBB /* PBXContainerItemProxy */;
+		};
+		C1E6918A22CEF55D00598EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1E6916422CEF55B00598EBB /* LSMediaPlayTool */;
+			targetProxy = C1E6918922CEF55D00598EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1E6916E22CEF55B00598EBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E6916F22CEF55B00598EBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1E6917322CEF55D00598EBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E6917422CEF55D00598EBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1E6918F22CEF55D00598EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1E6919022CEF55D00598EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1E6919222CEF55D00598EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GP5T8P44;
+				INFOPLIST_FILE = LSMediaPlayTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.ls.LSMediaPlayTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1E6919322CEF55D00598EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GP5T8P44;
+				INFOPLIST_FILE = LSMediaPlayTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.ls.LSMediaPlayTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1E6919522CEF55D00598EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GP5T8P44;
+				INFOPLIST_FILE = LSMediaPlayToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.ls.LSMediaPlayToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSMediaPlayTool.app/LSMediaPlayTool";
+			};
+			name = Debug;
+		};
+		C1E6919622CEF55D00598EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GP5T8P44;
+				INFOPLIST_FILE = LSMediaPlayToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.ls.LSMediaPlayToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSMediaPlayTool.app/LSMediaPlayTool";
+			};
+			name = Release;
+		};
+		C1E6919822CEF55D00598EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GP5T8P44;
+				INFOPLIST_FILE = LSMediaPlayToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.ls.LSMediaPlayToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LSMediaPlayTool;
+			};
+			name = Debug;
+		};
+		C1E6919922CEF55D00598EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GP5T8P44;
+				INFOPLIST_FILE = LSMediaPlayToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.ls.LSMediaPlayToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LSMediaPlayTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1E6916022CEF55B00598EBB /* Build configuration list for PBXProject "LSMediaPlayTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E6918F22CEF55D00598EBB /* Debug */,
+				C1E6919022CEF55D00598EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E6919122CEF55D00598EBB /* Build configuration list for PBXNativeTarget "LSMediaPlayTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E6919222CEF55D00598EBB /* Debug */,
+				C1E6919322CEF55D00598EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E6919422CEF55D00598EBB /* Build configuration list for PBXNativeTarget "LSMediaPlayToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E6919522CEF55D00598EBB /* Debug */,
+				C1E6919622CEF55D00598EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E6919722CEF55D00598EBB /* Build configuration list for PBXNativeTarget "LSMediaPlayToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E6919822CEF55D00598EBB /* Debug */,
+				C1E6919922CEF55D00598EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1E6915D22CEF55B00598EBB /* Project object */;
+}
