@@ -29,15 +29,31 @@
     playBtn.backgroundColor = [UIColor redColor];
     [self.view addSubview:playBtn];
     playBtn.frame = CGRectMake(100, 100, 100, 50);
-    [playBtn setTitle:@"播放在线" forState:UIControlStateNormal];
+    [playBtn setTitle:@"在线音频" forState:UIControlStateNormal];
     [playBtn addTarget:self action:@selector(clickBtn) forControlEvents:UIControlEventTouchUpInside];
     
     UIButton * locPlayBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     locPlayBtn.backgroundColor = [UIColor redColor];
     [self.view addSubview:locPlayBtn];
     locPlayBtn.frame = CGRectMake(100, 170, 100, 50);
-    [locPlayBtn setTitle:@"播放本地" forState:UIControlStateNormal];
+    [locPlayBtn setTitle:@"本地音频" forState:UIControlStateNormal];
     [locPlayBtn addTarget:self action:@selector(playLoc) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIButton * onlineVideoBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    onlineVideoBtn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:onlineVideoBtn];
+    CGFloat videoBtnY = CGRectGetMaxY(locPlayBtn.frame) + 20;
+    onlineVideoBtn.frame = CGRectMake(100, videoBtnY, 100, 50);
+    [onlineVideoBtn setTitle:@"在线视频" forState:UIControlStateNormal];
+    [onlineVideoBtn addTarget:self action:@selector(videoOnline) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIButton * locVideoBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    locVideoBtn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:locVideoBtn];
+    CGFloat locBtnY = CGRectGetMaxY(onlineVideoBtn.frame) + 20;
+    locVideoBtn.frame = CGRectMake(100, locBtnY, 100, 50);
+    [locVideoBtn setTitle:@"本地视频" forState:UIControlStateNormal];
+    [locVideoBtn addTarget:self action:@selector(videoLoc) forControlEvents:UIControlEventTouchUpInside];
 }
 // 在线音频
 - (void)clickBtn{
@@ -51,6 +67,15 @@
 // 本地音频
 - (void)playLoc{
     NSString * path = [[NSBundle mainBundle] pathForResource:@"如烟-五月天" ofType:@"mp3"];
+    [self.playTool playMediaWithURL:[NSURL fileURLWithPath:path]];
+}
+// 在线视频
+- (void)videoOnline{
+    [self.playTool playMediaWithURL:[NSURL URLWithString:@""]];
+}
+// 本地视频
+- (void)videoLoc{
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"1" ofType:@"mp4"];
     [self.playTool playMediaWithURL:[NSURL fileURLWithPath:path]];
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
